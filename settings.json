@@ -1,0 +1,94 @@
+{
+  // color-highlight
+  "color-highlight.markerType": "outline",
+  "color-highlight.languages": [
+    "*"
+  ],
+  // Vetur (start)
+  "vetur.completion.scaffoldSnippetSources": {
+    "workspace": "💼",
+    "user": "🗒️",
+    "vetur": ""
+  },
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.validation.style": false,
+  // emmet
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html",
+    "markdown": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  // editor
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.fontSize": 19,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "editor.minimap.enabled": true,
+  "editor.colorDecorators": false,
+  "editor.cursorBlinking": "solid",
+  "editor.scrollBeyondLastLine": false,
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontFamily": "Menlo",
+  // other   
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "extensions.autoUpdate": false,
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "html.format.wrapAttributes": "aligned-multiple",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Night Owl Light",
+  "git.enabled": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "remimarsal.prettier-now"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "bracket-pair-colorizer-2.colors": [
+    "#939a94",
+    "Orchid",
+    "LightSkyBlue"
+  ],
+  "files.associations": {
+    // "*.css": "postcss",
+    "*.vue": "vue"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "vetur.validation.template": false,
+  // svgPreview
+  "svgPreview.autoOpen": false,
+  "editor.columnSelection": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "editor.autoClosingBrackets": "never",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "octref.vetur",
+  "explorer.compactFolders": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.format.enable": true,
+  "eslint.probe": [
+    "vue",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "ejs",
+    "embedded javascript",
+    "html",
+    "markdown",
+  ]
+}

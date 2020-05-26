@@ -1,0 +1,232 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "shift+cmd+a",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "ctrl+shift+cmd+a",
+    "command": "editor.emmet.action.wrapIndividualLinesWithAbbreviation"
+  },
+  {
+    "key": "alt+cmd+a",
+    "command": "editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+cmd+right",
+    "command": "-editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+cmd+down",
+    "command": "editor.emmet.action.decrementNumberByOne"
+  },
+  {
+    "key": "ctrl+alt+cmd+up",
+    "command": "editor.emmet.action.incrementNumberByOne"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+up",
+    "command": "editor.emmet.action.incrementNumberByTen"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+down",
+    "command": "editor.emmet.action.decrementNumberByTen"
+  },
+  {
+    "key": "ctrl+alt+up",
+    "command": "editor.emmet.action.incrementNumberByOneTenth"
+  },
+  {
+    "key": "ctrl+alt+down",
+    "command": "editor.emmet.action.decrementNumberByOneTenth"
+  },
+  {
+    "key": "ctrl+cmd+left",
+    "command": "editor.emmet.action.matchTag"
+  },
+  {
+    "key": "ctrl+cmd+right",
+    "command": "editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+\\",
+    "command": "-editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+;",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "shift+cmd+p",
+    "command": "-workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.quickOpenNavigateNextInEditorPicker",
+    "when": "inEditorsPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "-workbench.action.quickOpenNavigateNextInEditorPicker",
+    "when": "inEditorsPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.openNextRecentlyUsedEditorInGroup"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "-workbench.action.openNextRecentlyUsedEditorInGroup"
+  },
+  {
+    "key": "cmd+[IntlBackslash]",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "-workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+alt+=",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+p",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "[IntlBackslash]",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "shift+cmd+o",
+    "command": "-workbench.action.gotoSymbol"
+  },
+  {
+    "key": "ctrl+alt+-",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+x",
+    "command": "editor.emmet.action.removeTag"
+  },
+  {
+    "key": "ctrl+alt+cmd+down",
+    "command": "editor.action.insertCursorBelow"
+  },
+  {
+    "key": "ctrl+alt+cmd+up",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+[IntlBackslash]",
+    "command": "extension.liveServer.goOnline",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+l cmd+o",
+    "command": "-extension.liveServer.goOnline",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+e",
+    "command": "-actions.findWithSelection"
+  },
+  {
+    "key": "shift+cmd+x",
+    "command": "-workbench.view.extensions"
+  },
+  {
+    "key": "cmd+e",
+    "command": "emmet.expandAbbreviation"
+  },
+  {
+    "key": "cmd+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "cmd+n",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "alt+cmd+n",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+cmd+]",
+    "command": "extension.selectCurlyBracketsOuter",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k shift+]",
+    "command": "-extension.selectCurlyBracketsOuter",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+alt+]",
+    "command": "extension.selectSquareBracketsOuter",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k ]",
+    "command": "-extension.selectSquareBracketsOuter",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+cmd+]",
+    "command": "extension.selectCurlyBrackets",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+k shift+[",
+    "command": "-extension.selectCurlyBrackets",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+[IntlBackslash]",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "editor.action.formatDocument.multiple"
+  }
+]
